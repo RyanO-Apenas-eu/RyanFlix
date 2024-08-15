@@ -1,0 +1,53 @@
+body {
+    color: white;
+    background: black;
+}
+
+header {
+    border-bottom: solid 5px red;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+
+}
+
+.Video {
+    background: rgb(59, 40, 5);
+    padding-bottom: 80px;
+
+}
+
+.Video h1 {
+    color: blue;
+}
+
+p {
+    Font-size: 19;
+}
+
+.Musicas {
+    background: rgb(59, 40, 5);
+}
+
+.categoria-musicas {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria-musicas img {
+    opacity: 0.5;
+    height: 250px;
+}
+
+.categoria-musicas img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.Musicas h2 {
+    color: blue;
+}
+
+
+
